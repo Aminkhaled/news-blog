@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+/*
+=========================
+padding
+=========================
+*/
+.p-r-25{
+    padding-right: 25%;
+}
+/*
+======================
+Header
+======================
+*/
+header{
+    width: 100%;
+    height: auto;
+
+}
+.header-top{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#search.form-control{
+    width: 75%;
+    margin-top: 15px;
+    border: 1px solid  #ed1664;
+    float: left;
+}
+.search{
+    position: absolute;
+}
+.search i{
+    margin-right: 8%;
+    margin-top: 16px;
+    padding: 8px;
+    background-color: #ed1664;
+    color: white;
+}
+
+
+.main-logo{
+    text-align: right;
+    float: right;
+}
+.logo img{
+    height: 40%;
+    width: 29%;
+}
+
+/*
+==============================
+
+navbar
+==============================
+*/
+
+nav.navbar-default {
+    background-color: #ed1664;
+    border-color: #ed1664;
+    border-radius: 0;
+}
+nav.navbar-default .navbar-nav li {
+    right: 3%;
+}
+nav.navbar-default .navbar-nav li a{
+
+    color:black;
+    font-weight: bold;
+}
+nav.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    color:#ed1664;
+    background-color:white ;
+    font-weight: bold;
+
+
+}
+
+
+/*
+==========================
+posts
+==========================
+
+*/
+
+#posts{
+    padding: 2% 0;
+}
+
+#posts .category-name{
+    padding-bottom: 8%;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#posts .main-posts .post img{
+    width: 350px;
+    height: 230px;
+
+}
+
+#posts .main-posts .post-caption p:first-child{
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: .3s ease-out;
+}
+
+#posts .main-posts .post-caption p:first-child:hover{
+    color: #ed1664;
+}
