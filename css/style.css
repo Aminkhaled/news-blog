@@ -105,13 +105,96 @@ posts
 
 }
 
-#posts .main-posts .post-caption p:first-child{
+#posts .main-posts .post-caption h2{
     margin-top: 10px;
     font-size: 14px;
     font-weight: bold;
     transition: .3s ease-out;
 }
 
-#posts .main-posts .post-caption p:first-child:hover{
+#posts .main-posts .post-caption h2:hover{
     color: #ed1664;
+}
+
+#posts .main-posts .post-caption p i {
+    background-color: #ed1664;
+    padding: 4px 6px;
+    color: white;
+}
+
+#posts .main-posts .post-caption p span{
+    margin-right: 45%;
+    color: gray;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.main-posts .col-md-6{
+    margin-bottom: 20px;
+}
+
+
+/*
+=========================
+       sidebar
+=========================
+*/
+.main-sidebar{
+    text-align: center;
+}
+.main-sidebar h2{
+    font-size: 15px;
+    font-weight: bold;
+    text-align: right;
+    padding-bottom: 15px;
+}
+.main-sidebar .recent-posts .post-sidebar{
+    padding-bottom: 15px;
+}
+
+.main-sidebar .recent-posts .post-sidebar img{
+    width: 35%;
+    float: left;
+}
+.main-sidebar .recent-posts .post-sidebar .post-caption h3{
+    font-weight: bold;
+    font-size: 14px;
+    transition: 1s ease-in-out;
+}
+
+.main-sidebar .recent-posts .post-sidebar .post-caption h3:hover,.main-sidebar .recent-posts .post-sidebar .post-caption h3:focus{
+    color: #ed1664;
+}
+
+.main-sidebar .recent-posts .post-sidebar .post-caption span{
+    text-align: left;
+    color: gray;
+    margin-right: 30%;
+}
+
+
+/*
+=============================
+sidebar - categories
+=============================
+*/
+.categories{
+    padding-top: 60px;
+}
+
+.categories .list-group{
+    padding-right: 6%;
+}
+
+.categories .list-group .list-group-item{
+    font-weight: bold;
+}
+
+
+.categories .list-group .list-group-item span{
+    margin-right: 75%;
+    text-align: center;
+    padding: 5px 8px;
+    background: #ed1664;
+    color: white;
 }
