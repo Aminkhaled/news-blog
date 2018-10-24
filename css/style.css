@@ -1,4 +1,4 @@
-*{
+*,body{
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -197,4 +197,100 @@ sidebar - categories
     padding: 5px 8px;
     background: #ed1664;
     color: white;
+    position: relative;
+    bottom: 16px;
 }
+
+
+
+/*
+=============================
+sidebar - social media
+=============================
+*/
+.social-media{
+    padding-top: 60px;
+}
+
+.social-media .list-group{
+    padding-right: 6%;
+}
+
+.social-media .list-group .list-group-item{
+    font-weight: bold;
+    text-align: left;
+}
+
+
+.social-media .list-group .list-group-item:first-child{
+    color: blue;
+}
+
+.social-media .list-group .list-group-item:nth-of-type(2){
+    color: deepskyblue;
+}
+
+.social-media .list-group .list-group-item:nth-of-type(3){
+    color: #ed1664;
+}
+
+.social-media .list-group .list-group-item:last-child{
+    color: yellowgreen;
+}
+
+/*
+
+=========================
+  footer
+=========================
+*/
+
+.footer{
+    text-align: center;
+    background-color: #ed1664;
+    padding: 10px;
+}
+.footer p{
+    color: white;
+}
+
+
+/*
+===================
+
+main-post
+===================
+
+*/
+.main-post{
+    padding: 15px;
+}
+
+.main-post .post .post-info .img-writer{
+    display: inline-table;
+
+}
+.main-post .post .post-info .img-writer img{
+    width: 100px;
+    height: 100px;
+}
+.main-post .post-info .writer-info{
+    display: inline-table;
+    margin-right: 2%;
+}
+
+.main-post .post h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    padding-bottom:15px ;
+    line-height: 40px;
+}
+
+.main-post .post p{
+    font-size: 17px;
+    line-height: 45px;
+    word-spacing: 7px;
+}
+
+
