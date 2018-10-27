@@ -266,6 +266,9 @@ main-post
     padding: 15px;
 }
 
+.main-post .post .post-info{
+    padding: 10px 0;
+}
 .main-post .post .post-info .img-writer{
     display: inline-table;
 
@@ -293,8 +296,8 @@ main-post
 
 .main-post .post p{
     font-size: 17px;
-    line-height: 45px;
-    word-spacing: 7px;
+    line-height: 24px;
+    word-spacing: 2px;
 }
 
 
